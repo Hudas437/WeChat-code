@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "more/more_sheet/more_sheet",
+    "more/more_toplist/more_toplist",
+    "more/more_songer/more_songer",
+    "more/more_program/more_program",
+    "more/more_pay/more_pay",
+    "more/more_dj/more_dj",
+    "more/more_mv/more_mv",
+    "pages/love/love",
+    "pages/me/me",
+    "components/custom-tab-bar/custom-tab-bar"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DC4238",
+    "navigationBarTitleText": "云音乐",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#C62F2F",
+    "onReachBottomDistance": 50,
+    "enablePullDownRefresh": true,
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8D8D8D",
+    "selectedColor": "#DC4238",
+    "backgroundColor": "#f6f6f8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "乐库",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/selected-music.png"
+      },
+      {
+        "pagePath": "pages/love/love",
+        "text": "收藏",
+        "iconPath": "images/love.png",
+        "selectedIconPath": "images/selected-love.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/selected-me.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
